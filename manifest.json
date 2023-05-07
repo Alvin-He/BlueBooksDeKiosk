@@ -1,0 +1,17 @@
+{
+  "name": "Bluebook for Students",
+  "description": "Required extension for the Bluebook exam player on managed Chromebooks",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "mainNew.js"
+  },
+  "permissions": [
+    "system.storage",
+    "system.display",
+    "system.memory"
+  ],
+  "externally_connectable": {
+    "matches": ["https://*.collegeboard.org/*"]
+  }
+}

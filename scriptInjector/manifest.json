@@ -1,0 +1,20 @@
+{
+    "name": "Alh's script injector",
+    "description": "Injects scripts into websites",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "*://bluebook-chromebook.app.collegeboard.org/*"
+            ],
+            "js": [
+                "runtimeOverride.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

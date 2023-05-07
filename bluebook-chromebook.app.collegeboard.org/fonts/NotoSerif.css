@@ -1,0 +1,35 @@
+/* regular */
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./NotoSerif-Regular.ttf) format("truetype");
+}
+
+/* bold */
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./NotoSerif-Bold.ttf) format("truetype");
+}
+
+/* italic */
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./NotoSerif-Italic.ttf) format("truetype");
+}
+
+/* bold & italic */
+@font-face {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./NotoSerif-BoldItalic.ttf) format("truetype");
+}
